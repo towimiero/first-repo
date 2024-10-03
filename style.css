@@ -1,0 +1,168 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Anton", sans-serif;
+    color: 000;
+    font-size: 16px;
+}
+
+h1,h2,h3 {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+ul,li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1170px;  
+    margin: 0 auto;
+}
+
+.header {
+    background: url(/img/header-bg.jpg) no-repeat center top / cover;
+    padding-top: 60px;
+    padding-bottom: 322px;
+}
+
+header a{
+    color: #fff;
+}
+
+.logo {
+    margin-right: 70px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: var(Anton);
+    font-weight: 400;
+    letter-spacing: 0.1em;
+}
+
+.menu li {
+    margin-right: 40px;
+}
+
+.tel {
+    font-size: 17px;
+    font-family: var(Anton);
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: right;
+    text-decoration: none;
+    margin-left: auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.offer {
+    color: #fff;
+}
+
+.offer p{
+    padding-top: 216px;
+    font-family: var(Anton);
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.offer h1{
+    font-family: var(Anton);
+    font-weight: 400;
+    font-size: 100px;
+    text-transform: uppercase;
+    padding-bottom: 19px;
+}
+
+.btn {
+    display: block;
+    text-decoration: none;
+    border: solid 1px white;
+    padding: 17px 47px;
+    font-family: var(Anton);
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    width: 238px;
+}
+
+.about {
+    margin-top: 113px;
+}
+
+p {
+    font-family: "Open sans";
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 56px;
+}
+
+.topic {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topicl, .topicr {
+    width: 564px;
+}
+
+.topic h3 {
+    font-weight: 400;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 19px;
+}
+
+.topic p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    text-align: justify;
+    color: #000;
+}
+
+.photo {
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text {
+    font-size: 15px;
+    margin-top: 114px;
+    padding: 80px 0;
+    display: flex;
+}
+
+.footer-text p{
+    margin-right: 67px;
+}
